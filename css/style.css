@@ -1,0 +1,127 @@
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(../images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.red {
+  background-color: orangered;
+}
+
+.row,
+.col-lg-6 {
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  margin: 37px 35px;
+}
+
+.browser-image {
+  margin: 0px 38px;
+  max-width: 100%;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  max-width: 85%;
+  margin: 60px 50px 40px;
+}
+
+p {
+  margin: 0% 65px 3% 50px;
+  line-height: 2;
+  font-weight: 300;
+}
+
+.register-button {
+  border: none;
+  padding: 15px 90px;
+  margin-bottom: 20%;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  color: hsl(257, 40%, 49%);
+  margin: 0% 0 3% 6%;
+  text-decoration: none;
+}
+
+.register-button:hover {
+  opacity: 0.8;
+}
+
+.social-icons-box {
+  margin: 0 65px 32px 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-icon {
+  margin-left: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+@media (max-width: 992px) {
+  body {
+    text-align: center;
+  }
+
+  .logo {
+    display: flex;
+  }
+
+  .social-icons-box {
+    justify-content: center;
+  }
+
+  .social-icon {
+    margin-left: 25px;
+  }
+
+  .register-button {
+    margin: 20px 0 80px;
+  }
+}
+
+@media (max-width: 800px) {
+  .browser-image {
+    max-width: 81%;
+  }
+}
+
+@media (max-width: 376px) {
+  .logo {
+    max-width: 45%;
+  }
+
+  .browser-image {
+    margin: 0px 25px;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    max-width: 95%;
+    margin: 60px 25px 40px;
+  }
+
+  p {
+    margin: 0% 25px 3% 25px;
+    font-size: 15px;
+  }
+}
